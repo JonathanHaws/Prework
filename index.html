@@ -9,27 +9,40 @@
   </head>
   <body>
     <header id="top">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <p class="TitleHeader">Study Guide</p>
+      <img class=bootcamplogo src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
 
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>!DOCTYPE html,html lang="en",meta charset="UTF-8",head,body,title,style,base,link,script,,div,span > USEFUL GENERAL TAGS</li>
-          <li>Visual studio code when hovering over tags will give you more information on utility</li>
+          <li>Most important tags are head / body / title / head / h1-6 / p / img / b / i </li>
+          <li>Custom tags are declared inside tag with <i>"id or class = name"</i> and defined in css with # and . tagname</li>
+          <li>Element Attribute <i>"Block / Inline" </i> determines wether content alone takes up entire row or if it allows multiple elements
+          to fit alongside</li>
         </ul>
       </section>
 
       <section class="card" id="css-section">
         <h2>CSS</h2>
+        <p>CSS is doccument and specification that determine superficial features like font, margin, padding, image sizes, color, etc 
+          can bring websites to life very quickly! Alignment can be confusing!</p>
         <ul>
-          <p>CSS is doccument and specification that determine superficial features like font, margin, padding, image sizes, color, etc 
-            can bring websites to life very quickly!
-          </p>
-          <li>Enter your CSS notes here</li>
-        </ul>
+          <li>Z-index:∞ Determines draw order</li>
+        </ul> <br></b>
+        <p>HTML elements can be tricky to get them to go where you need them to,
+           The different <b>Position</b> settings are important to get familiar with as they determine this
+           Besides default elements have keywords Left, Right, Top, Bottom for finer control. Negative pixels / percentages
+           go outward while positive go inward</p><br></b>
+        <ul>
+          <li>Static is the default effiecent but not dynamic</li>
+          <li>Relative is like static but lets you move from original Position</li>
+          <li>Absolute Position are positioned based on the parent and removed from doccument flow </li>
+          <li>Fixed ignores everything, even scrolling, just based on view port browser window</li>
+          <li>Sticky is like static until it goes off screen then turns to fixed</li>
+          </ul>
+        
       </section>
 
       <section class="card" id="git-section">
@@ -64,7 +77,7 @@
     </main>
     <footer>
       <script src="./assets/script.js"></script>
-      <p>I can code!</p>
+      <p class=footertext>Jonathan Haws</p>
     </footer>
   </body>
 </html>
